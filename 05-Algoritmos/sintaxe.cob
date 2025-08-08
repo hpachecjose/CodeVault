@@ -1,0 +1,29 @@
+IDENTIFICATION DIVISION
+PROGRAM-ID. HELLO WORLD.
+
+ENVIROMENT DIVISION.
+CONFIGURATION SECTION.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01 GREETING PIC X(12) VALUE 'HELL, WORLD!'.
+
+01. EMPLOYEE-RECORD.
+   05 EMPLOYEE-NAME PIC X(20).
+   05 EMPLOYEE-ID PIC 9(5).
+   05 SALARY      PIC9(7)V99.
+
+
+   IF AGE > 18 THEN 
+     display "adult"
+     else
+       display "minor"
+       end-if.
+
+       perform varyng i from 1 by 1 until I > 10
+       display i
+       end-perform.
+
+PROCEDURE DIVISION 
+   DISPLAY GREETING.
+   STOP RUN.

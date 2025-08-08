@@ -1,0 +1,22 @@
+
+export class MyDataBaseClassic {
+  private static instance: MyDataBaseClassic | null = null;
+
+  private constructor() {}
+
+  static getInstance(): MyDataBaseClassic {
+    if (MyDataBaseClassic.instance === null) {
+      MyDataBaseClassic.instance = new MyDataBaseClassic();
+    }
+
+    return MyDataBaseClassic.instance;
+  }
+
+  add(user: any): void {
+    console.log('user added')
+  }
+
+  remove(index: number): void {
+    console.log('user removed')
+  }
+}

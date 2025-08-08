@@ -1,0 +1,22 @@
+ export var lista = [
+    { nome: "Alberto", idade: 45, pontos: 5.90 },
+    { nome: "Diego", idade: 32, pontos: 0.99 },
+    { nome: "Maria", idade: 28, pontos: 8.75 },
+    { nome: "João", idade: 40, pontos: 7.50 },
+    { nome: "Ana", idade: 22, pontos: 9.10 },
+    { nome: "Carlos", idade: 35, pontos: 4.20 },
+    { nome: "Fernanda", idade: 30, pontos: 6.80 },
+    { nome: "Roberto", idade: 50, pontos: 3.60 },
+    { nome: "Patrícia", idade: 27, pontos: 8.00 },
+    { nome: "Lucas", idade: 33, pontos: 5.00 },
+    { nome: "Juliana", idade: 29, pontos: 7.25 },
+    { nome: "Ricardo", idade: 38, pontos: 2.50 },
+    { nome: "Sofia", idade: 24, pontos: 9.90 },
+    { nome: "Eduardo", idade: 41, pontos: 6.00 },
+    { nome: "Tatiane", idade: 36, pontos: 4.75 },
+    { nome: "Gustavo", idade: 31, pontos: 8.40 },
+    { nome: "Cláudia", idade: 26, pontos: 7.80 },
+    { nome: "André", idade: 39, pontos: 3.30 },
+    { nome: "Isabela", idade: 23, pontos: 9.50 },
+    { nome: "Felipe", idade: 34, pontos: 5.60 }
+];
